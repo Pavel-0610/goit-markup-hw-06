@@ -1,13 +1,23 @@
-@import './utils/vars';
+// BASE
 @import './base/reset';
 @import './base/common';
+
+// UTILITS
+@import './utils/vars';
 @import './utils/visually-hidden';
 
-@import './header';
-@import './hero';
+// LAYOUT
+@import './layout/header';
+@import './layout/hero';
+@import './layout/feature';
+@import './layout/examples';
+@import './layout/leaders';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/filter';
 
 // COMPONENTS
 @import './components/container';
-@import './components/container';
-@import './components/container';
-@import './components/container';
+@import './components/btn';
+@import './components/modal';
+@import './components/section_title';
